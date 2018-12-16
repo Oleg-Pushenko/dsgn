@@ -1,0 +1,1508 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* ХЕДЕР */
+.header-grid {
+    display: grid;
+    grid-template-columns: 1030fr 461fr;
+    grid-template-rows: 500px;
+    width: 100%;
+}
+.logo {
+    background-color: #E9EBE2;
+}
+.dsgn {
+    width: 15%;
+    margin: 50px 0 0 120px;
+}
+.text {
+    margin: -10px 0 0 120px;
+    line-height: 0.3;
+    color: #373D3C;
+    font-weight: 600;
+}
+.social-icon {
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.social-icon img {
+    margin-right: 10px;
+}
+.two-chairs {
+    width: 60%;
+    margin-top: -310px;
+    margin-left: 410px;
+}
+.menu {
+    background: #2ECFC4 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="100%" y2="0" stroke="#fff" stroke-width="1"/></svg>');
+}
+.icon-menu {
+    position: relative;
+    top: 10%;
+    left: 25%;
+    width: 122px;
+    height: 120px;
+}
+.icon-menu:hover {
+    background-color: orange;
+}
+.lines-menu {
+    position: relative;
+    left: 35%;
+    top: -60%;
+}
+.adress {
+    margin: 35% 0 0 7%;
+}
+.num-email {
+    margin: 10% 0 0 39%;
+}
+.adress,
+.num-email {
+    color: white;
+    line-height: 0.2;
+    font-size: 0.8em;
+}
+
+
+/* Галерея */
+.galery-grid {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+      "projects projects fondue fondue potter"
+      "projects projects fondue fondue tabano"
+      "louis view-project view-project view-project tabano"
+      "louis view-project view-project view-project fiji"
+      "sessan sessan sessan allesi timeline";
+    grid-template-columns: 300fr 170fr 270fr 300fr 465fr;
+    grid-template-rows: 250px 250px 220px 250px 300px;
+}
+
+/*PROJECTS*/
+.projects {
+    background: #FEB331 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="100%" y2="0" stroke="#fff" stroke-width="1"/></svg>');
+    grid-area: projects;
+}
+.project-menu-first {
+     margin: 40% 0 0 25%;
+}
+.project-menu {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.project-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+.project-menu a:hover {
+    color: black;
+}
+.projects p {
+    color: white;
+    font-size: 2.5em;
+    margin: 20% 0 0 40%;
+}
+
+/* FONDUE */
+.fondue {
+    background: url(image/img-fondue.png);
+    background-position: right 25%;
+    grid-area: fondue;
+}
+.title {
+    margin: 15% 0 0 10%;
+}
+.characteristics {
+    margin: 5% 0 0 10%;
+}
+.viewproject-fondue {
+    margin: 20% 0 0 12%;
+}
+.viewproject p {
+    margin: -5% 0 0 6%;
+    font-size: 1.1em;
+    color: #474747;
+}
+.like-fondue {
+    margin: 20% 0 0 25%;
+}
+.like {
+    color: red;
+    font-size: 0.7em;
+    line-height: 0;
+}
+.like p {
+    margin-left: -3px;
+}
+
+/* размер и цвет заголовка и текста в блоках*/
+.visual-title {
+    font-size: 1.4em;
+    line-height: 0.5;
+    color: #474747;
+}
+.visual-text {
+    font-size: 0.7em;
+    line-height: 0;
+    color: #474747;
+}
+strong {
+    color: black;
+}
+
+/* POTTER */
+.potter {
+    background: url(image/potterbg.png);
+    background-repeat: no-repeat;
+    background-position: right 20%;
+    grid-area: potter;
+}
+.title-potter {
+    margin: 10% 0 0 5%;
+}
+.bold-text {
+    font-size: 1.1em;
+}
+.characteristics-potter {
+    width: 130px;
+    margin: 6% 0 0 5%;
+}
+.characteristics-potter strong {
+    color: black;
+}
+.potter-text {
+    line-height: 1;
+}
+.viewproject-potter {
+    margin: 5% 0 0 3%;
+}
+.like-potter {
+    margin: 3% 0 0 20%;
+}
+
+/*TABANO*/
+.tabano {
+    background-color: #F7F7F3;
+    background: url(image/tabanobg.png); 
+    background-size: 115%;
+    background-position: bottom 10%;
+    background-repeat: no-repeat;
+    grid-area: tabano;
+}
+.title-tabano {
+    margin: 85% 0 0 10%;
+}
+.characteristics-tabano {
+    margin: 5% 0 0 10%;
+}
+.viewproject-tabano {
+    margin: -13% 0 0 60%;
+}
+.viewproject-tabano p {
+    margin: -12% 0 0 14%;
+}
+.like-tabano {
+    margin: 3% 0 0 75%;
+}
+
+/*LOUIS*/
+.louis {
+    background: url(image/louisbg.png);
+    background-position: right 20%;
+    background-size: 115%;
+    background-repeat: no-repeat;
+    grid-area: louis;
+    color: #DBDBDB;
+}
+.title-louis {
+    font-size: 1.4em;
+    line-height: 0;
+    color: #DBDBDB;
+    margin: 20% 0 0 10%;
+}
+.characteristics-louis {
+    font-size: 0.7em;
+    line-height: 0;
+    margin: 10% 0 0 10%;
+}
+.characteristics-louis strong{
+    color: white;
+}
+.viewproject-louis {
+    margin: 20% 0 0 10%;
+}
+.viewproject-louis p {
+margin: -8% 0 0 10%;
+}
+.like-louis {
+    margin: 15% 0 0 30%;
+}
+.like-louis p {
+    color: #DC5200;
+    margin: 0 0 0 -3%;
+    font-size: 0.8em;
+}
+
+/*VIEW-PROJECT*/
+.view-project {
+    background: url(image/wpbg.png);
+    background-repeat: no-repeat;
+    background-size: 115%;
+    grid-area: view-project;
+}
+.title-project {
+    margin: 10% 0 0 45%;
+}
+.characteristics-project {
+    margin: 5% 0 0 45%;
+}
+.viewproject-project {
+    margin: -14% 0 0 73%;
+}
+.viewproject-project p {
+   margin: -10% 0 0 15%;
+}
+.like-view-project {
+    margin: 5% 0 0 83%;
+}
+
+/*FIJI*/
+.fiji {
+    background: url(image/fijibg.png);
+    background-repeat: no-repeat;
+    grid-area: fiji;
+}
+.title-fiji {
+    margin: 10% 0 0 55%;
+}
+.characteristics-fiji {
+    margin: 5% 0 0 55%;
+}
+.viewproject-fiji {
+    margin: 10% 0 0 55%;
+}
+.viewproject-fiji p {
+    margin: -10% 0 0 15%;
+}
+.like-fiji {
+    margin: 5% 0 0 70%;
+}
+
+/* SESSAN */
+.sessan {
+    background: url(image/sessanbg.png);
+    background-repeat: no-repeat;
+    grid-area: sessan;
+}
+.title-sessan {
+    margin: 30% 0 0 25%;
+}
+.characteristics-sessan {
+    margin: 5% 0 0 25%;
+}
+.viewproject-sessan {
+    margin: -8% 0 0 60%;
+}
+.viewproject-sessan p {
+    margin: -7% 0 0 9%;
+}
+.like-sessan {
+    margin: -3% 0 0 87%;
+}
+
+/*ALLESI*/
+.allesi {
+    background: url(image/alessibg.png);
+    grid-area: allesi;
+}
+.title-allesi {
+    margin: 80% 0 0 20%;
+}
+.characteristics-allesi {
+    margin: 5% 0 0 20%;
+}
+.viewproject-allesi {
+    margin: -90% 0 0 40%;
+}
+.viewproject-allesi p {
+    margin: -11% 0 0 15%;
+}
+.like-allesi {
+    margin: 10% 0 0 70%;
+}
+
+/*TIMELINE*/
+.timeline {
+    background: #FEB331 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="60%" y2="0" stroke="#fff" stroke-width="1"/></svg>');
+    grid-area: timeline;
+}
+.timeline p {
+    margin: 15% 0 0 15%;
+}
+.timeline div {
+    margin: 2% 0 0 15%;
+}
+
+
+/*STUDIO-GRID*/
+.studio-grid {
+    display: grid;
+    grid-template-columns: 465fr 470fr 565fr;
+    grid-template-rows: 500px;
+}
+
+/*LOGO-STUDIO*/
+.logo-studio {
+    background: #FF9C6B url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="100%" y2="0" stroke="#fff" stroke-width="1"/></svg>');
+    color: white;
+    font-size: 2.5em;
+}
+.logo-studio p {
+    margin: 75% 0 0 40%;
+}
+
+/*SOME-TEXT*/
+.some-text {
+    background-color: #E9EBE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.some-text p {
+    width: 75%;
+    font-size: 0.9em;
+}
+.some-text p:first-child {
+    color: #4B4B49;
+}
+.some-text p:last-child {
+    color: #71716D;
+}
+
+/*VISUAL-STUDIO*/
+.visual-studio {
+    background-color: #E9EBE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-studio {
+    border-bottom: 2px solid #D2D4CC;
+}
+.two-collumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 360px;
+}
+.two-collumn p {
+    width: 50%;
+    font-size: 0.7em;
+}
+
+
+/*DESIGNERS-GRID*/
+.designers-grid {
+    display: grid;
+    grid-template-columns: 580fr 870fr 165fr;
+    grid-template-rows: 390px;
+    background-color: #E9EBE2;
+}
+
+/*DESIGNER-TEXT*/
+.designer-text {
+    background-color: #E9EBE2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.designer-text p {
+    width: 65%;
+    font-size: 0.8em;
+}
+.designer-text p:first-child {
+    color: #4B4B49;
+}
+.designer-text p:last-child {
+    color: #71716D;
+}
+
+.all-designers {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #E9EBE2;
+}
+/*DESIGNER-PHILIPPE*/
+/*DESIGNER-MARIO*/
+/*DESIGNER-PATRICIA*/
+.designer-mario, 
+.designer-philippe,
+.designer-patricia {
+    background-color: #E9EBE2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3%;
+}
+.philippe p {
+    color: #55574E;
+}
+.all-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon-left img{
+    margin-right: 5px;
+}
+.icon-right img{
+    margin-left: 10px;
+}
+
+
+/*NEWS-GRID*/
+.news-grid {
+    display: grid;
+    grid-template-columns: 465fr 470fr 500fr 65fr;
+    grid-template-rows: 500px;
+    background-color: #E4EADF;
+}
+/*LOGO-NEWS*/
+.logo-news {
+    background: #CAEDBE url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><line x1="0" y1="100%" x2="100%" y2="0" stroke="#fff" stroke-width="1"/></svg>');
+}
+.logo-news p {
+    color: white;
+    font-size: 2.5em;
+    margin: 75% 0 0 40%;
+}
+.news-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E4EADF;
+    justify-content: center;
+    align-items: flex-end;
+}
+.information-news {
+    width: 370px;
+}
+.information-news p:nth-child(1) {
+    color: #4B4B49;
+    font-size: 1.2em;
+}
+.information-news p:nth-child(2) {
+    color: #71716D;
+    font-size: 0.7em;
+    line-height: 0;
+}
+.information-news p:nth-child(4) {
+    color: #71716D;
+    font-size: 0.8em;
+}
+.read-more-news a {
+    text-decoration: none;
+    color: #FF5900;
+}
+.news-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E4EADF;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.news-center {
+    display: flex;
+    flex-direction: column;
+    background-color: #E4EADF;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+
+/*MAPS AND FOOTER*/
+.footer-grid {
+    display: grid;
+    grid-template-columns: 750fr 750fr;
+    grid-template-rows: 645px;
+    background-color: #E9EBE2;
+    color: #2F2F2F;
+}
+.footer-adress {
+    margin: 25% 0 0 20%;
+}
+.footer-adress p{
+    line-height: 0.2;
+    font-size: 0.8em;
+}
+
+.footer-logo {
+    margin: -28% 0 0 40%;
+}
+.footer-logo img {
+    width: 31%;
+}
+.footer-logo p{
+    line-height: 0.3;
+    color: #373D3C;
+    font-weight: 600;
+    margin-left: 29%;
+}
+.footer-icon {
+    margin: 10% 0 0 60%;
+}
+.footer-author {
+    margin: 15% 0 0 15%;
+}
+
+/*ADAPTATION*/
+@media screen and (max-width:1024px){
+    .two-chairs {
+        width: 50%;
+    }
+    .projects p {
+        color: white;
+        font-size: 1.8em;
+        margin: 20% 0 0 45%;
+    }
+    .visual-text {
+        font-size: 0.6em;
+        line-height: 0.2;
+    }
+    .viewproject-fondue {
+        margin: 65% 0 0 7%;
+    }
+    .viewproject p {
+        margin: -6% 0 0 8%;
+    }
+    .like-fondue {
+        margin: 5% 0 0 25%;
+    }
+    .potter {
+        background-position: left;
+    }
+    .viewproject-tabano {
+        margin: -3% 0 0 45%;
+    }
+    .viewproject-tabano p {
+        margin: -13% 0 0 15%;
+    }
+    .like-tabano {
+        margin: -90% 0 0 10%;
+    }
+    .louis {
+        background-position: center 5%;
+        background-size: 150%;
+    }
+    .characteristics-louis {
+        line-height: 0.5;
+    }
+    .viewproject-louis p {
+        margin: -9% 0 0 15%;
+    } 
+    .view-project {
+        background-size: 150%;
+        background-position: center 5%;
+    }
+    .viewproject-project {
+        margin: 5% 0 0 60%;
+    } 
+    .title-fiji {
+        margin: -28% 0 0 55%;
+    }
+    .viewproject-fiji {
+        margin: 10% 0 0 50%;
+    }
+    .viewproject-fiji p {
+        margin: -12% 0 0 15%;
+    }
+    .title-sessan {
+        margin: 40% 0 0 25%;
+    }
+    .viewproject-sessan {
+        margin: -16% 0 0 60%;
+    }
+    .viewproject-sessan p {
+        margin: -10% 0 0 12%;
+    }
+    .like-sessan {
+        margin: 5% 0 0 80%;
+    }
+    .title-allesi {
+        margin: 100% 0 0 20%;
+    }
+    .viewproject-allesi {
+        margin: -110% 0 0 24%;
+    }
+    .viewproject-allesi p {
+        margin: -12% 0 0 15%;
+    }
+    .like-allesi {
+        margin: 10% 0 0 75%;
+    }
+    .logo-studio {
+        font-size: 2em;
+    }
+    .logo-studio p {
+        margin: 90% 0 0 45%;
+    }
+    .designer-text p {
+        font-size: 0.7em;
+    }
+    .logo-news p {
+        font-size: 2em;
+        margin: 120% 0 0 45%;
+    }   
+    .information-news {
+        width: 330px;
+    }
+    .news-2 {
+        margin-top: 3%;
+    }
+    .footer-logo p{
+        margin-left: 38%;
+    }
+    .footer-logo {
+        margin: -36% 0 0 40%;
+    }
+    .footer-icon {
+        margin: 10% 0 0 65%;
+    }
+    .footer-author {
+        margin: 30% 0 0 15%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .header-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 200px;
+    }
+    .dsgn {
+        width: 20%;
+    }
+    .two-chairs {
+        width: 60%;
+        margin-top: -360px;
+        margin-left: 300px;
+    }
+    .icon-menu {
+        top: 10%;
+        left: 5%;
+    }
+    .adress {
+        margin: -10% 0 0 80%;
+    }
+    .num-email {
+        margin: 5% 0 0 70%;
+    }
+    .adress,
+    .num-email {
+        line-height: 0.2;
+        font-size: 0.9em;
+    }
+    /* Галерея */
+    .galery-grid {
+        grid-template-areas: 
+          "projects fondue fondue fondue"
+          "potter potter potter potter"
+          "tabano tabano tabano louis"
+          "view-project view-project view-project view-project"
+          "fiji fiji fiji fiji"
+          "sessan sessan sessan sessan"
+          "allesi allesi timeline timeline";    
+        grid-template-columns: 250fr 170fr 50fr 250fr;
+        grid-template-rows: 300px 320px 500px 400px 280px 400px 300px;
+    }
+
+    /*PROJECTS*/
+    .project-menu-first {
+         margin: 25% 0 0 15%;
+    }
+    .project-menu a {
+        font-size: 1em;
+    }
+    .projects p {
+        color: white;
+        font-size: 2em;
+        margin: 20% 0 0 30%;
+    }
+    /* FONDUE */
+    .fondue {
+        background-size: 70%;
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .title {
+        margin: 5% 0 0 5%;
+    }
+    .characteristics {
+        margin: 5% 0 0 5%;
+    }
+    .viewproject-fondue {
+        margin: 10% 0 0 12%;
+    }
+    .like-fondue {
+        margin: 5% 0 0 40%;
+    }
+    .like {
+        font-size: 0.8em;
+    }
+    .like p {
+        margin-left: -5px;
+    }
+
+    /* размер и цвет заголовка и текста в блоках*/
+    .visual-title {
+        font-size: 1.7em;
+        line-height: 0.5;
+        color: #474747;
+    }
+    .visual-text {
+        font-size: 0.9em;
+        line-height: 0.2;
+        color: #474747;
+    }
+    strong {
+        color: black;
+    }
+
+    /* POTTER */
+    .potter {
+        background-position: left 20%;
+        background-repeat: repeat;
+        background-size: 80%;
+    }
+    .title-potter {
+        margin: 5% 0 0 5%;
+    }
+    .bold-text {
+        font-size: 1.2em;
+    }
+    .characteristics-potter {
+        width: 160px;
+    }
+    .viewproject-potter {
+        margin: 2% 0 0 3%;
+    }
+    .viewproject-potter p {
+        margin: -3% 0 0 5%;
+    }
+    .like-potter {
+        margin: 2% 0 0 20%;
+    }
+    /*TABANO*/
+    .tabano {
+        background-size: 105%;
+    }
+    .title-tabano {
+        margin: 75% 0 0 10%;
+    }
+    .characteristics-tabano {
+        margin: 5% 0 0 10%;
+    }
+    .viewproject-tabano {
+        margin: -14% 0 0 60%;
+    }
+    .like-tabano {
+        margin: 3% 0 0 75%;
+    }
+    /*LOUIS*/
+    .louis {
+        background-size: 120%;
+    }
+    .title-louis {
+        font-size: 1.6em;
+        margin: 15% 0 0 10%;
+    }
+    .characteristics-louis {
+        font-size: 1em;
+        margin: 15% 0 0 10%;
+    }
+    .viewproject-louis p {
+    margin: -9% 0 0 13%;
+    }
+    .like-louis {
+        margin: 10% 0 0 30%;
+    }
+    .like-louis p {
+        margin: 0 0 0 -6%;
+        font-size: 1em;
+    }
+
+    /*VIEW-PROJECT*/
+    .view-project {
+        background-position: center;
+        background-size: 105%;
+    }
+    .title-project {
+        margin: 5% 0 0 50%;
+    }
+    .characteristics-project {
+        margin: 5% 0 0 50%;
+    }
+    .viewproject-project {
+        margin: 10% 0 0 73%;
+    }
+    .like-view-project {
+        margin: 2% 0 0 83%;
+    }
+
+    /*FIJI*/
+    .fiji {
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: left;
+        grid-area: fiji;
+    }
+    .title-fiji {
+        margin: 5% 0 0 55%;
+    }
+    .characteristics-fiji {
+        margin: 3% 0 0 55%;
+    }
+    .viewproject-fiji {
+        margin: 5% 0 0 55%;
+    }
+    .viewproject-fiji p {
+        margin: -6% 0 0 10%;
+    }
+    .like-fiji {
+        margin: 3% 0 0 70%;
+    }
+
+    /* SESSAN */
+    .sessan {
+        background-size: 130%;
+        background-position: top;
+    }
+    .title-sessan {
+        margin: 35% 0 0 10%;
+    }
+    .characteristics-sessan {
+        margin: 4% 0 0 10%;
+    }
+    .viewproject-sessan {
+        margin: -14% 0 0 60%;
+    }
+    .viewproject-sessan p {
+        margin: -7% 0 0 9%;
+    }
+    .like-sessan {
+        margin: 4% 0 0 75%;
+    }
+
+    /*ALLESI*/
+    .allesi {
+        background: url(image/alessibg.png);
+        background-position: top;
+        background-size: 100%;
+    }
+    .title-allesi {
+        margin: 40% 0 0 55%;
+    }
+    .characteristics-allesi {
+        margin: 5% 0 0 55%;
+    }
+    .viewproject-allesi {
+        margin: -50% 0 0 40%;
+    }
+    .viewproject-allesi p {
+        margin: -8% 0 0 13%;
+    }
+    .like-allesi {
+        margin: 5% 0 0 65%;
+    }
+
+    /*TIMELINE*/
+    .timeline p {
+        margin: 10% 0 0 10%;
+        font-size: 1.5em;
+    }
+    .timeline div {
+        margin: 2% 0 0 10%;
+        font-size: 1.1em;
+    }
+
+
+    /*STUDIO-GRID*/
+    .studio-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 300px 320px;
+    }
+
+    /*LOGO-STUDIO*/
+    .logo-studio {
+        font-size: 4em;
+    }
+    .logo-studio p {
+        margin: 13% 0 0 60%;
+    }
+    /*SOME-TEXT*/
+    .some-text {
+        flex-direction: column;
+        border-bottom: 3px solid #FF9C6B;
+    }
+    .some-text p {
+        width: 98%;
+        font-size: 1em;
+    }
+    /*VISUAL-STUDIO*/
+    .visual-studio {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        border-bottom: 3px solid #FF9C6B;
+    }
+    .img-studio {
+        margin-top: 5%;
+        border-bottom: 0px solid #D2D4CC;
+    }
+    .two-collumn {
+        align-items: center;
+        align-content: center;
+        width: 360px;
+    }
+    .two-collumn p {
+        width: 50%;
+        font-size: 1.3em;
+    }
+    .two-collumn p:last-child {
+        margin-top: 9%;
+    }
+
+
+    /*DESIGNERS-GRID*/
+    .designers-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 850px;
+    }
+
+    /*DESIGNER-TEXT*/
+    .designer-text p {
+        width: 90%;
+        font-size: 1.3em;
+    }
+    .all-designers {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /*DESIGNER-PHILIPPE*/
+    /*DESIGNER-MARIO*/
+    /*DESIGNER-PATRICIA*/
+    .designer-mario, 
+    .designer-philippe,
+    .designer-patricia {
+        margin-top: 4%;
+    }
+    .icon-left img{
+        margin-right: 10px;
+    }
+    .icon-right img{
+        margin-left: 15px;
+    }
+    /*NEWS-GRID*/
+    .news-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 200px 500px 510px;
+        border-bottom: 4px solid #CAEDBE;
+    }
+    /*LOGO-NEWS*/
+    .logo-news p {
+        font-size: 4em;
+        margin: 13% 0 0 60%;
+    }
+    .news-1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid #CAEDBE;
+    }
+    .information-news {
+        width: 90%;
+    }
+    .information-news p:nth-child(1) {
+        font-size: 1.7em;
+    }
+    .information-news p:nth-child(2) {
+        font-size: 1em;
+    }
+    .information-news p:nth-child(4) {
+        font-size: 1.3em;
+    }
+    .news-2 {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    /*MAPS AND FOOTER*/
+    .footer-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 600px 400px;
+    }
+    .footer-adress {
+        margin: 5% 0 0 5%;
+    }
+    .footer-adress p{
+        font-size: 1.2em;
+    }
+
+    .footer-logo {
+        margin: -33% 0 0 40%;
+    }
+    .footer-logo p{
+        margin-left: 26%;
+        font-size: 1.2em;
+    }
+    .footer-icon {
+        margin: -5% 0 0 5%;
+    }
+    .footer-icon a {
+        margin-right: 3%;
+    }
+    .footer-author {
+        margin: 7% 0 0 15%;
+        font-size: 1.1em;
+    }
+}
+
+
+@media screen and (max-width:414px){
+    .header-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 210px 220px;
+    }
+    .dsgn {
+        width: 30%;
+        margin: 5% 0 0 5%;
+    }
+    .text {
+        margin: -42% 0 0 40%;
+        font-size: 1.3em;
+    }
+    .social-icon {
+        margin: 16% 0 0 40%;
+    }
+    .two-chairs {
+        display: none;
+    }
+    .icon-menu {
+        top: 5%;
+        left: 2%;
+    }
+    .adress {
+        margin: -10% 0 0 65%;
+    }
+    .num-email {
+        margin: 5% 0 0 50%;
+    }
+    .adress,
+    .num-email {
+        line-height: 0.2;
+        font-size: 0.8em;
+    }
+    /* Галерея */
+    .galery-grid {
+        grid-template-areas: 
+            "projects"
+            "fondue"
+            "potter"
+            "tabano"
+            "louis"
+            "view-project"
+            "fiji"
+            "sessan"
+            "allesi"
+            "timeline";    
+        grid-template-columns: 100%;
+        grid-template-rows: 300px 300px 300px 400px 500px 360px 300px 280px 280px 300px;
+    }
+
+    /*PROJECTS*/
+    .project-menu-first {
+         margin: 10% 0 0 10%;
+    }
+    .project-menu a {
+        font-size: 1.4em;
+    }
+    .projects p {
+        font-size: 2.5em;
+        margin: 5% 0 0 40%;
+    }
+    /* FONDUE */
+    .fondue {
+        background-size: 90%;
+    }
+    .title {
+        margin: 10% 0 0 5%;
+    }
+    .characteristics {
+        margin: 5% 0 0 5%;
+    }
+    .viewproject-fondue {
+        margin: 15% 0 0 5%;
+    }
+    .like-fondue {
+        margin: 5% 0 0 10%;
+    }
+
+    /* размер и цвет заголовка и текста в блоках*/
+    .visual-title {
+        font-size: 1.6em;
+        line-height: 0.5;
+        color: #474747;
+    }
+    .visual-text {
+        font-size: 0.7em;
+        line-height: 0.2;
+        color: #474747;
+    }
+    strong {
+        color: black;
+    }
+
+    /* POTTER */
+    .potter {
+        background-color: #E0E1DA;
+        background-position: left 20%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .title-potter {
+        margin: 10% 0 0 5%;
+    }
+    .characteristics-potter {
+        width: 160px;
+    }
+    .viewproject-potter {
+        margin: 10% 0 0 5%;
+    }
+    .viewproject-potter p {
+        margin: -5% 0 0 7%;
+    }
+    .like-potter {
+        margin: 5% 0 0 10%;
+    }
+    /*TABANO*/
+    .title-tabano {
+        margin: 75% 0 0 5%;
+    }
+    .characteristics-tabano {
+        margin: 5% 0 0 5%;
+        line-height: 0.2;
+    }
+    .viewproject-tabano {
+        margin: -21% 0 0 60%;
+    }
+    .like-tabano {
+        margin: 2% 0 0 80%;
+    }
+    /*LOUIS*/
+    .louis {
+        background-size: 80%;
+        background-color: #4E6C77;
+    }
+    .title-louis {
+        font-size: 1.8em;
+        margin: 15% 0 0 15%;
+    }
+    .characteristics-louis {
+        font-size: 1em;
+        margin: 10% 0 0 15%;
+    }
+    .viewproject-louis {
+        margin: 7% 0 0 15%;
+    }
+    .viewproject-louis p {
+        margin: -6% 0 0 9%;
+    }
+    .like-louis {
+        margin: 8% 0 0 20%;
+    }
+    .like-louis p {
+        margin: 0 0 0 -4%;
+    }
+
+    /*VIEW-PROJECT*/
+    .view-project {
+        background-size: 145%;
+    }
+    .title-project {
+        margin: 7% 0 0 35%;
+    }
+    .characteristics-project {
+        margin: 5% 0 0 35%;
+    }
+    .viewproject-project {
+        margin: 5% 0 0 55%;
+    }
+    .like-view-project {
+        margin: 3% 0 0 85%;
+    }
+
+    /*FIJI*/
+    .fiji {
+        background-size: 100%;
+    }
+    .title-fiji {
+        margin: 10% 0 0 55%;
+    }
+    .characteristics-fiji {
+        margin: 5% 0 0 55%;
+    }
+    .viewproject-fiji {
+        margin: 5% 0 0 55%;
+    }
+    .viewproject-fiji p {
+        margin: -11% 0 0 13%;
+    }
+    .like-fiji {
+        margin: 3% 0 0 80%;
+    }
+
+    /* SESSAN */
+    .sessan {
+        background-color: #FCFCFC;
+        background-size: 140%;
+        background-position: top;
+    }
+    .title-sessan {
+        margin: 42% 0 0 10%;
+    }
+    .characteristics-sessan {
+        margin: 8% 0 0 10%;
+    }
+    .viewproject-sessan {
+        margin: -24% 0 0 60%;
+    }
+    .viewproject-sessan p {
+        margin: -12% 0 0 14%;
+    }
+    .like-sessan {
+        margin: 3% 0 0 80%;
+    }
+
+    /*ALLESI*/
+    .allesi {
+        background-position: top;
+        background-size: 100%;
+    }
+    .viewproject-allesi {
+        margin: -50% 0 0 60%;
+    }
+    .viewproject-allesi p {
+        margin: -11% 0 0 15%;
+    }
+    .like-allesi {
+        margin: 5% 0 0 80%;
+    }
+
+    /*TIMELINE*/
+    .timeline p {
+        margin: 10% 0 0 5%;
+        font-size: 1.5em;
+    }
+    .timeline div {
+        margin: 2% 0 0 5%;
+        font-size: 0.9em;
+    }
+
+
+    /*STUDIO-GRID*/
+    .studio-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 260px 500px;
+    }
+
+    /*LOGO-STUDIO*/
+    .logo-studio {
+        font-size: 2.5em;
+    }
+    .logo-studio p {
+        margin: 17% 0 0 60%;
+    }
+    /*SOME-TEXT*/
+    .some-text {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .some-text p {
+        font-size: 0.8em;
+    }
+    /*VISUAL-STUDIO*/
+    .visual-studio {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 3px solid #FF9C6B;
+    }
+    .img-studio {
+        margin-top: 5%;
+        border-bottom: 2px solid #D2D4CC;
+    }
+    .two-collumn {
+        align-items: flex-start;
+        align-content: center;
+        width: 360px;
+        margin-top: -15%;
+    }
+    .two-collumn p {
+        font-size: 1em;
+    }
+    .two-collumn p:last-child {
+        margin-top: 4%;
+    }
+
+    /*DESIGNERS-GRID*/
+    .designers-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 850px;
+    }
+
+    /*DESIGNER-TEXT*/
+    .designer-text p {
+        width: 95%;
+        font-size: 1em;
+    }
+    .all-designers {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /*NEWS-GRID*/
+    .news-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 580px 550px;
+        border-bottom: 4px solid #CAEDBE;
+    }
+    /*LOGO-NEWS*/
+    .logo-news p {
+        font-size: 2.5em;
+        margin: 18% 0 0 60%;
+    }
+    .news-1 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .information-news p:nth-child(1) {
+        font-size: 1.4em;
+    }
+    .information-news p:nth-child(2) {
+        font-size: 0.7em;
+    }
+    .information-news p:nth-child(4) {
+        font-size: 1.2em;
+    }
+    .news-2 {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    /*MAPS AND FOOTER*/
+    .footer-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 500px 300px;
+    }
+    .footer-adress {
+        margin: 5% 0 0 5%;
+    }
+    .footer-adress p{
+        font-size: 0.8em;
+    }
+    .footer-logo {
+        margin: -35% 0 0 55%;
+    }
+    .footer-logo img {
+        width: 50%;
+    }
+    .footer-logo p{
+        margin-left: 5%;
+        font-size: 1.2em;
+    }
+    .footer-icon {
+        margin: -10% 0 0 5%;
+    }
+    .footer-author {
+        margin: 7% 0 0 15%;
+        font-size: 1.1em;
+    }
+}
+@media screen and (max-width:375px){
+     .news-2 img,
+     .news-1 img {
+        width: 80%;
+    }
+}
+@media screen and (max-width:360px){
+    /*TABANO*/
+    .tabano {
+        background-size: 120%;
+    }
+    .title-tabano {
+        margin: 85% 0 0 5%;
+    }
+    .characteristics-tabano {
+        margin: 5% 0 0 5%;
+        line-height: 0.2;
+    }
+    .viewproject-tabano {
+        margin: -23% 0 0 53%;
+    }
+    .louis {
+        background-size: 90%;
+    }
+    .view-project {
+        background-size: 160%;
+    }
+    .title-fiji {
+        margin: 10% 0 0 50%;
+    }
+    .characteristics-fiji {
+        margin: 5% 0 0 50%;
+    }
+    .logo-studio p {
+        font-size: 1em;
+        margin: 25% 0 0 50%;
+    }
+    /*NEWS-GRID*/
+    .news-grid {
+        grid-template-rows: 150px 480px 480px;
+    }
+    .news-1 {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .news-1 img {
+        width: 90%;
+    }
+    .information-news p:nth-child(1) {
+        font-size: 1.2em;
+    }
+    .information-news p:nth-child(2) {
+        font-size: 0.7em;
+    }
+    .information-news p:nth-child(4) {
+        font-size: 1em;
+    }
+    .news-2 {
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .news-2 img {
+        width: 90%;
+    }
+    .two-collumn p {
+        font-size: 0.8em;
+    }
+}
